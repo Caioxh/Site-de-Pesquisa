@@ -1,0 +1,179 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(287.56deg, #efff97 0%, #ffaf79 100%);
+    font-family: sans-serif;
+    max-width: 100%;
+  overflow-x: hidden;
+    
+}
+
+.pesquisa{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    height: 50px;
+    width: 600px;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+h1{
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h3{
+    position: absolute;
+    top: 3%;
+    left: 93%;
+    transform: translate(-50%, -50%);
+    background: rgb(255, 213, 76);
+    height: 30px;
+    width: 60px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h4{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.procurar{
+    background: none;
+    border: 0;
+    outline: 0;
+    font-size: 25px;
+    padding: 0;
+    padding-right: 30%;
+    padding-left: 5%;
+}
+
+button{
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+
+.sidebar {
+    top: 5%;
+    width: 1817px;
+    padding: 20px;
+    display: flex;
+  }
+  
+  .sidebar nav ul li a {
+    text-decoration: none;
+    color: #242424;
+    font-weight: bold;
+  }
+  
+.categorias {
+    top: 5%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.categorias li {
+    margin-right: 50px;
+}
+
+.categorias li a {
+    top: 5%;
+  text-decoration: none;
+  color: #e02222;
+  padding: 10px 10px; 
+  border-radius: 5px; 
+}
+
+
+@media screen and (max-width: 1020px){
+    .pesquisa{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    height: 50px;
+    width: 350px;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    }
+
+    h4{
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    } 
+
+    h3{
+        position: absolute;
+        top: 5%;
+        left: 83%;
+        transform: translate(-50%, -50%);
+        background: rgb(255, 213, 76);
+        height: 30px;
+        width: 60px;
+        padding: 20px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .pesquisa img{
+        position: relative;
+        right: 175px;
+
+    }
+
+    
+    .sidebar {
+        top: 5%;
+        width: 180px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .categorias {
+        flex-direction: column; 
+        align-items: flex-start;
+}
+
+h4 {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; 
+}
+
+}
